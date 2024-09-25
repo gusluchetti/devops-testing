@@ -1,6 +1,6 @@
 {
   "name": "devops-testing",
-  "module": "index.ts",
+  "module": "app/root.tsx",
   "type": "module",
   "scripts": {
     "dev": "remix dev",
