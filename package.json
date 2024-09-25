@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "remix dev",
+    "clean": "rm -rf ./build/ ./node_modules/",
     "build": "remix vite:build",
     "start": "remix-serve build/server/index.js"
   },
