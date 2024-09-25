@@ -3,12 +3,25 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun index.ts"
+    "dev": "remix dev",
+    "build": "remix vite:build",
+    "start": "remix-serve build/server/index.js"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@remix-run/dev": "^2.12.1",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.9",
+    "vite": "^5.4.7"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.12.1",
+    "@remix-run/react": "^2.12.1",
+    "@remix-run/serve": "^2.12.1",
+    "isbot": "4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
