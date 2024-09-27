@@ -12,6 +12,7 @@
     "@remix-run/dev": "^2.12.1",
     "@types/bun": "latest",
     "@types/react": "^18.3.9",
+    "drizzle-kit": "^0.24.2",
     "vite": "^5.4.7"
   },
   "peerDependencies": {
@@ -21,7 +22,9 @@
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
     "@remix-run/serve": "^2.12.1",
+    "drizzle-orm": "^0.33.0",
     "isbot": "4",
+    "postgres": "^3.4.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
